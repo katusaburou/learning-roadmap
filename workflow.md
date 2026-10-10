@@ -6,7 +6,7 @@
 
 1. 作業用のIssueに、今週取り組む課題と完了条件を書く。
 2. 小さな変更を実装し、ビルド・実行・必要なテストを行う。
-3. 結果と残った疑問を記録し、成果を根拠にIssueを閉じる。
+3. 結果と残った疑問を記録し、成果を根拠にIssueを閉じる。公開できる成果は [`outcomes/`](outcomes/README.md) にまとめる。
 4. 日曜日に公開用の週報を作り、READMEの最新週報リンクを更新する。
 5. 学習段階の終了時に、到達目標と未検証範囲を振り返る。
 
@@ -36,7 +36,7 @@ Issueは「ビット操作」「リングバッファ」「MQTTの再接続」�
 
 ## Labels・Milestones・Projects
 
-領域ラベルの候補は `c`、`mcu`、`circuit`、`node`、`server`、`debug`。補助ラベルは `question`、`blocked` とします。
+Labels・Milestones・Projectsは作業用リポジトリで使います。領域ラベルの候補は `c`、`mcu`、`circuit`、`comm`（UART・MQTTなどの通信）、`linux`、`node`、`server`、`debug`。週報の学習時間の内訳もこのラベルに合わせます。補助ラベルは `question`、`blocked` とします。
 
 Milestoneは学習段階ごとに作成し、[計画](plan.md)の到達目標を説明に入れます。開始日が決まれば月単位に置き換えても構いません。Issueの完了率はタスクの進捗を表し、理解度そのものとは区別します。
 
